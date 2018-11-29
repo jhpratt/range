@@ -1,0 +1,5 @@
+node_modules/
+LICENSE
+tsconfig.json
+index.ts
+!index.d.ts

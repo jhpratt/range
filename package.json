@@ -1,6 +1,6 @@
 {
   "name": "@jhpratt/range",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JavaScript equivalent of Python's `range` function",
   "main": "index.js",
   "repository": "https://github.com/jhpratt/range",
