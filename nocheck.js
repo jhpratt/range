@@ -1,0 +1,1 @@
+export function*range(s,e,t){if(e==void 0)[s,e,t]=typeof s=='number'?[0,s,1]:[0n,s,1n];if(t==void 0){t=e-s>0?1:-1;typeof s=='bigint'&&(t=BigInt(t))}while(t>0?s<e:s>e){yield s;s+=t}}

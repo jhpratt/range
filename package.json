@@ -1,17 +1,21 @@
 {
-  "name": "@jhpratt/range",
-  "version": "0.1.1",
-  "description": "JavaScript equivalent of Python's `range` function",
-  "main": "index.js",
-  "repository": "https://github.com/jhpratt/range",
-  "author": "Jacob Pratt <the.z.cuber@gmail.com>",
-  "license": "MIT",
-  "types": "./index.d.ts",
-  "devDependencies": {
-    "typescript": "^3.1.6"
-  },
-  "scripts": {
-    "build": "tsc",
-    "prepublish": "npm run build"
-  }
+    "name": "@jhpratt/range",
+    "version": "0.2.1",
+    "description": "JavaScript equivalent of Python's `range` function",
+    "main": "index.js",
+    "repository": "https://github.com/jhpratt/range",
+    "author": "Jacob Pratt <the.z.cuber@gmail.com>",
+    "license": "MIT",
+    "types": "./index.d.ts",
+    "devDependencies": {
+        "typescript": "^3.5.2"
+    },
+    "scripts": {
+        "build": "tsc"
+    },
+    "files": [
+        "index.d.ts",
+        "index.js",
+        "nocheck.js"
+    ]
 }
